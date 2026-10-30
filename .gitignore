@@ -1,0 +1,42 @@
+# ===============================================
+# .gitignore —— 写在这里的文件/文件夹，Git 永远不管
+# ===============================================
+
+# --- Keil 编译产物（每次编译都会变，不能进仓库）---
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.sct
+*.dep
+*.lnp
+*.htm
+*.iex
+*.build_log.htm
+
+# --- 手动备份文件 ---
+*.bak
+*.bak2
+*.bak3
+*.gbk.bak
+
+# --- 个人配置（含 Windows 用户名和本地路径）---
+*.uvguix.*
+*.uvoptx
+
+# --- IDE 临时文件 ---
+*.scvd
+*.log
+JLinkLog.txt
+
+# --- 系统垃圾 ---
+Thumbs.db
+.DS_Store
+desktop.ini
